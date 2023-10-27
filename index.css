@@ -1,0 +1,133 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+    
+}
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+        font-size: 15px;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    
+    
+
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;  
+ height: 90vh;
+ width: 100%;
+ border-radius: 0.625em;
+ 
+ 
+
+ 
+ 
+}
+
+.sedans_container{
+    background-color: hsl(31, 77%, 52%);
+    width: 280px;
+    height: 45vh;
+    padding: 2rem;
+    border-radius: 0.625rem 0 0 0.625rem;
+    
+    
+}
+
+.suvs_container{
+    background-color: hsl(184, 100%, 22%);
+    width: 280px;
+    height: 45vh;
+    padding: 2rem;
+}
+
+.luxury_container{
+    background-color: hsl(179, 100%, 13%);
+    width: 280px;
+    height: 45vh;
+    padding: 2rem;
+    border-radius: 0 0.625rem 0.625rem 0;
+}
+
+h1{
+    text-align: start;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding: 1.25rem;
+    font-family: Big Shoulders Display;
+    font-size: 40px;
+    
+    
+}
+
+p{
+    text-align: center;
+    color: lightgray;
+    line-height: 1.625rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: Lexend Deca;
+    display: inline;
+
+
+
+    
+}
+
+.btn1{
+    width: 12vh;
+    height: 4vh;
+    border-radius: 1.625rem;
+    margin-top: 5rem;
+    border: 0;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    
+    
+}
+
+    
+    
+
+
+
+.btn2{
+    width: 12vh;
+    height: 4vh;
+    border-radius: 1.625rem;
+    margin-top: 5rem;
+    border: 0;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn3{
+    width: 12vh;
+    height: 4vh;
+    border-radius: 1.625rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    border: 0;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);;
+    
+    
+}
+
+img{
+    padding: 0 1rem;
+}
+
